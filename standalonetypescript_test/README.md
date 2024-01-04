@@ -1,0 +1,3 @@
+# standalonetypescript_test
+
+
