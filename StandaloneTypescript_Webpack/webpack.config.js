@@ -8,7 +8,7 @@ const RootPath = path.resolve(__dirname);
 const SrcPath = path.resolve(RootPath, "src");
 
 //웹서버가 사용하는 폴더 이름
-const WwwRoot = "build";
+const WwwRoot = "dist";
 //웹서버가 사용하는 폴더 위치
 const WwwRootPath = path.resolve(__dirname, WwwRoot);
 
@@ -103,7 +103,7 @@ module.exports = (env, argv) =>
             /** 서비스 포트 */
             port: "9501",
             /** 출력파일의 위치 */
-            static: [path.resolve("./", "build/development/")],
+            static: [path.resolve("./", "dist/development/")],
             /** 브라우저 열지 여부 */
             //open: true,
             /** 핫리로드 사용여부 */
