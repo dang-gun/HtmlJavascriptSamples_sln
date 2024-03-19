@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "packaging": "tsc --project tsconfig.deploy.json",
+    "minify": "npx terser ./dist/ReleaseClass/ReleaseClassTest.js -o ./dist/ReleaseClass/ReleaseClassTest.min.js"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.3.0",
+    "typescript": "5.4.2",
+    "webpack": "5.90.3",
+    "webpack-cli": "5.1.4"
+  },
+  "devDependencies": {
+    "glob": "^10.3.10",
+    "webpack-dev-server": "^4.7.4"
+  }
+}

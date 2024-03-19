@@ -11,6 +11,12 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "StandaloneTypescript_Webpac
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "StandaloneTypescript_Node", "StandaloneTypescript_Node\StandaloneTypescript_Node.njsproj", "{4B036AD0-0945-4CA3-9694-344243CAFF26}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TypeScript Manual Deploy", "TypeScript Manual Deploy", "{6E7583AA-AB80-489F-A4DD-FAF352525AF3}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "TypeScriptManualDeploy_Library", "TypeScriptManualDeploy_Library\TypeScriptManualDeploy_Library.esproj", "{1CE1AEB3-81A0-490B-AABD-8EB070AB6C82}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "TypeScriptManualDeploy_Test", "TypeScriptManualDeploy_Test\TypeScriptManualDeploy_Test.esproj", "{41BB45B2-416C-4967-A59E-78A8FE0641F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,9 +43,25 @@ Global
 		{4B036AD0-0945-4CA3-9694-344243CAFF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B036AD0-0945-4CA3-9694-344243CAFF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B036AD0-0945-4CA3-9694-344243CAFF26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE1AEB3-81A0-490B-AABD-8EB070AB6C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE1AEB3-81A0-490B-AABD-8EB070AB6C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE1AEB3-81A0-490B-AABD-8EB070AB6C82}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1CE1AEB3-81A0-490B-AABD-8EB070AB6C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE1AEB3-81A0-490B-AABD-8EB070AB6C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE1AEB3-81A0-490B-AABD-8EB070AB6C82}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{41BB45B2-416C-4967-A59E-78A8FE0641F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41BB45B2-416C-4967-A59E-78A8FE0641F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41BB45B2-416C-4967-A59E-78A8FE0641F2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{41BB45B2-416C-4967-A59E-78A8FE0641F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41BB45B2-416C-4967-A59E-78A8FE0641F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41BB45B2-416C-4967-A59E-78A8FE0641F2}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CE1AEB3-81A0-490B-AABD-8EB070AB6C82} = {6E7583AA-AB80-489F-A4DD-FAF352525AF3}
+		{41BB45B2-416C-4967-A59E-78A8FE0641F2} = {6E7583AA-AB80-489F-A4DD-FAF352525AF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF75D327-7217-4797-8AA8-2EC8B4D94471}

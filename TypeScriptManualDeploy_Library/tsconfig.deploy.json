@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es5",
+    "lib": [ "es5", "dom" ],
+    "outDir": "./dist/ReleaseClass",
+    "declaration": true,
+    "rootDir": "./src/ReleaseClass",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "composite": true,
+
+
+    "declaration": true,
+    "declarationDir": "./dist/ReleaseClass"
+  },
+  "include": [ "./src/**/*.ts" ]
+}
