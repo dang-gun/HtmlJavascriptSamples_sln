@@ -10,7 +10,7 @@ var ReleaseClassTest = /** @class */ (function () {
      * @returns
      */
     ReleaseClassTest.prototype.TestString = function () {
-        return "Test01";
+        return "Test0";
     };
     return ReleaseClassTest;
 }());

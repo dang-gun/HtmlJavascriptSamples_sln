@@ -16,7 +16,7 @@ export default class ReleaseClassTest
 	 */
 	public TestString(): string
 	{
-		return "Test01";
+		return "Test0";
 	}
 	 
 }

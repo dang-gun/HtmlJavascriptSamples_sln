@@ -5,4 +5,10 @@
   <ItemGroup>
     <TypeScriptConfiguration Include="tsconfig.deploy.json" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dist\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="tsconfig - 복사.deploy.json" />
+  </ItemGroup>
 </Project>

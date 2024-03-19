@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "clean": "tsc --build --clean",
     "packaging": "tsc --project tsconfig.deploy.json",
     "minify": "npx terser ./dist/ReleaseClass/ReleaseClassTest.js -o ./dist/ReleaseClass/ReleaseClassTest.min.js"
   },
