@@ -1,4 +1,6 @@
 ﻿import ReleaseClassTest from "./Utility/ReleaseClass/ReleaseClassTest";
+//import { ReleaseClassTest } from "@OneFile";
+//import m = require("./Utility/ReleaseClass_OneFile/ReleaseClass_OneFile");
 
 export default class App
 {

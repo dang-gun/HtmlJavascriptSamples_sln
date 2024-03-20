@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
     "module": "es6",
-    "target": "es5",
     "lib": [ "es5", "dom" ],
     "outDir": "./dist/ReleaseClass",
+    //"out": "main.js",
+
     "declaration": true,
     "rootDir": "./src/ReleaseClass",
     "esModuleInterop": true,
@@ -18,5 +19,5 @@
     "declaration": true,
     "declarationDir": "./dist/ReleaseClass"
   },
-  "include": [ "./src/**/*.ts" ]
+  "include": [ "./src/ReleaseClass/**/*.ts" ]
 }

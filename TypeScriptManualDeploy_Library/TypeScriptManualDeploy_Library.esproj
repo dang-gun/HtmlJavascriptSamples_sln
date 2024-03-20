@@ -4,11 +4,21 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptConfiguration Include="tsconfig.deploy.json" />
+    <TypeScriptConfiguration Include="tsconfig.OneFile.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dist\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="tsconfig - 복사.deploy.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="tsconfig - 복사.deploy.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="tsconfig.OneFile.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="tsconfig - 복사.OneFile.json" />
   </ItemGroup>
 </Project>
