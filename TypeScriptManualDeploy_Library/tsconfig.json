@@ -1,28 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "AMD",
+    "outDir": "./dist",
     "rootDir": "./src/ReleaseClass",
-    "outFile": "./dist/ReleaseClass_OneFile/ReleaseClass_OneFile.js",
-
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strictNullChecks": true,
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [ "es5", "dom" ],
     "noImplicitAny": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "composite": true,
-
-
-    "declaration": true,
-    //"declarationDir": "./dist/ReleaseClass"
-
-
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true
   },
-  "include": [ "src/ReleaseClass/**/*" ],
-  "exclude": [
-    "node_modules",
-    "app.ts",
-    "deploy.ts"
+  "include": [
+    "./src/ReleaseClass/**/*.ts"
   ]
 }

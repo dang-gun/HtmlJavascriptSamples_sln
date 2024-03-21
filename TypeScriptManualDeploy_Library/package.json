@@ -2,14 +2,20 @@
   "scripts": {
     "clean": "tsc --build --clean",
     "packaging": "tsc --project tsconfig.deploy.json",
-    "onefile": "tsc --project tsconfig.OneFile.json"
-  },
-  "dependencies": {
-    
+    "onefile": "tsc --project tsconfig.OneFile.json",
+    "minify_file": "npx terser ./dist/ReleaseClass/ReleaseClassTest.js -o ./dist/ReleaseClass/min/ReleaseClassTest.min.js",
+    "minify1": "npx terser ./dist/ReleaseClass -o ./dist/ReleaseClass",
+    "minify2": "npx terser --exclude './dist/ReleaseClass/**/*.min.js' --output './dist/ReleaseClass' './dist/ReleaseClass/**/*.js'",
+    "test1": "terser --output ./dist/ReleaseClass --source-map ./dist/ReleaseClass/**/*.js",
+    "test2": "tsc --outFile ./dist/ReleaseClass.js --rootDir ./src/ReleaseClass ./src/ReleaseClass/**/*.ts",
+    "test3": "npx terser --output ./dist/ReleaseClass/min/ --rename '{extname}.min{ext}' ./dist/ReleaseClass/*.js"
+
   },
   "devDependencies": {
+    
     "glob": "^10.3.10",
     "html-webpack-plugin": "^5.5.0",
+    "swc": "^1.0.11",
     "ts-loader": "^9.3.0",
     "typescript": "5.4.2"
   }
