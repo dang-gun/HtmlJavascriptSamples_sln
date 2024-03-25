@@ -3,9 +3,6 @@
     "module": "es6",
     "lib": [ "es5", "dom" ],
     "outDir": "./dist/ReleaseClass",
-    //"out": "main.js",
-
-    "declaration": true,
     "rootDir": "./src/ReleaseClass",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -14,7 +11,6 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "composite": true,
-
 
     "declaration": true,
     "declarationDir": "./dist/ReleaseClass"
